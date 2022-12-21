@@ -1,7 +1,7 @@
 print("QB-DJBooth v1.1 by Jimathy")
 
 Config = {
-	Lan = "en",
+	Lan = "sv",
 	Debug = false, -- Set to true to show target locations
 	Locations = {
 		{ -- Vanilla Unicorn DJ Booth
@@ -58,6 +58,14 @@ Config = {
 			coords = vector3(983.14, -133.17, 79.59),
 			soundLoc = vector3(988.79, -131.62, 78.89), -- Add sound origin location if you don't want the music to play from the dj booth
 		},
+		{ -- Tequilala
+			job = "public",
+			enableBooth = true,
+			DefaultVolume = 0.1,
+			radius = 20,
+			coords = vector3(-550.82, 283.89, 82.98),
+			soundLoc = vector3(-550.82, 283.89, 82.98), -- Add sound origin location if you don't want the music to play from the dj booth
+	},
 	},
 }
 
